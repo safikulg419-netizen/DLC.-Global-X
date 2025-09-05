@@ -1,1 +1,158 @@
-# DLC.-Global-X
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DLC.GlobalX</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f4f4f4;
+      color: #333;
+    }
+    .section {
+      max-width: 1200px;
+      margin: auto;
+      padding: 30px 20px;
+    }
+    .section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2em;
+      color: #0072ff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      border-radius: 12px;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card img {
+      width: 60px;
+      height: 60px;
+      margin-bottom: 10px;
+    }
+    .bio, .contact {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: white;
+      margin-top: 30px;
+    }
+    .ad-space {
+      background: #eaeaea;
+      border: 2px dashed #bbb;
+      border-radius: 12px;
+      text-align: center;
+      padding: 30px;
+      margin: 30px 0;
+      color: #666;
+    }
+    /* Banner image styling */
+    .banner img {
+      width: 100%;
+      height: 350px; /* 👉 এখানে ব্যানার বড় করা হলো */
+      object-fit: cover;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Banner Section -->
+  <div class="section banner">
+    <h2>🏷️ Brand Banner</h2>
+    <div class="card" style="padding:0;">
+      <!-- 👉 এখানে তোমার ব্যানার ইমেজ লিংক দাও -->
+      <img src="banner.png" alt="Brand Banner">
+    </div>
+  </div>
+
+  <!-- Ad Space Top -->
+  <div class="section ad-space">
+    <!-- 👉 এখানে Google AdSense কোড বসাও -->
+    <p>Ad Space (Top)</p>
+  </div>
+
+  <!-- Social Media Section -->
+  <div class="section">
+    <h2>🌐 Social Media Links</h2>
+    <div class="grid">
+      <div class="card"><img src="telegram-logo.png" alt="Telegram"><p><a href="#" target="_blank">Telegram</a></p></div>
+      <div class="card"><img src="threads-logo.png" alt="Threads"><p><a href="#" target="_blank">Threads</a></p></div>
+      <div class="card"><img src="instagram-logo.png" alt="Instagram"><p><a href="#" target="_blank">Instagram</a></p></div>
+      <div class="card"><img src="linkedin-logo.png" alt="LinkedIn"><p><a href="#" target="_blank">LinkedIn</a></p></div>
+      <div class="card"><img src="twitter-logo.png" alt="Twitter"><p><a href="#" target="_blank">Twitter</a></p></div>
+      <div class="card"><img src="whatsapp-logo.png" alt="WhatsApp"><p><a href="#" target="_blank">WhatsApp Group</a></p></div>
+      <div class="card"><img src="youtube-logo.png" alt="YouTube"><p><a href="#" target="_blank">YouTube</a></p></div>
+      <div class="card"><img src="snapchat-logo.png" alt="Snapchat"><p><a href="#" target="_blank">Snapchat</a></p></div>
+      <div class="card"><img src="pinterest-logo.png" alt="Pinterest"><p><a href="#" target="_blank">Pinterest</a></p></div>
+      <div class="card"><img src="facebook-logo.png" alt="Facebook"><p><a href="#" target="_blank">Facebook</a></p></div>
+      <div class="card"><img src="imo-logo.png" alt="IMO"><p><a href="#" target="_blank">IMO</a></p></div>
+      <div class="card"><img src="messenger-logo.png" alt="Messenger"><p><a href="#" target="_blank">Messenger Group</a></p></div>
+      <div class="card"><img src="tiktok-logo.png" alt="TikTok"><p><a href="#" target="_blank">TikTok</a></p></div>
+      <div class="card"><img src="kuaishou-logo.png" alt="Kuaishou"><p><a href="#" target="_blank">Kuaishou</a></p></div>
+    </div>
+  </div>
+
+  <!-- E-commerce Section -->
+  <div class="section">
+    <h2>🛒 E-commerce Links</h2>
+    <div class="grid">
+      <div class="card"><img src="flipkart-logo.png" alt="Flipkart"><p><a href="#" target="_blank">Flipkart</a></p></div>
+      <div class="card"><img src="amazon-logo.png" alt="Amazon"><p><a href="#" target="_blank">Amazon</a></p></div>
+      <div class="card"><img src="mishor-logo.png" alt="Mishor"><p><a href="#" target="_blank">Mishor</a></p></div>
+      <!-- 👉 ভবিষ্যতের জন্য ফাঁকা -->
+    </div>
+  </div>
+
+  <!-- Ad Space Middle -->
+  <div class="section ad-space">
+    <!-- 👉 এখানে Google AdSense কোড বসাও -->
+    <p>Ad Space (Middle)</p>
+  </div>
+
+  <!-- Bio Section -->
+  <div class="section bio">
+    <h2>👤 About Me</h2>
+    <p>
+      <!-- 👉 এখানে তোমার নিজের বায়ো লিখবে -->
+      আমি DLC.GlobalX-এর প্রতিষ্ঠাতা। এখানে আমি অ্যাপ, গেম এবং ডিজিটাল সলিউশন তৈরি করি। 
+      আমার লক্ষ্য হলো বিশ্বব্যাপী ইউজারদের জন্য শেখা, আয়ের সুযোগ এবং ভ্যালু তৈরি করা।
+    </p>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="section contact">
+    <h2>📞 Contact Me</h2>
+    <p><strong>Address:</strong> <!-- 👉 এখানে ঠিকানা লিখো --></p>
+    <p><strong>Phone:</strong> <!-- 👉 এখানে মোবাইল নাম্বার লিখো --></p>
+    <p><strong>Email:</strong> <!-- 👉 এখানে ইমেইল আইডি লিখো --></p>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 DLC.GlobalX | All Rights Reserved
+  </footer>
+
+</body>
+</html>
